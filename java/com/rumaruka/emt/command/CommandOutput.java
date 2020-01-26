@@ -54,11 +54,6 @@ public class CommandOutput extends CommandBase {
 
     }
 
-    @Override
-    public int compareTo(ICommand p_compareTo_1_) {
-        return this.compareTo(p_compareTo_1_);
-    }
-
     public String addString(String t_1,String t_2){
         String result = t_1+t_2;
         return result;
