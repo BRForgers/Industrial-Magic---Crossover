@@ -25,5 +25,5 @@ jobs:
       - checkout
 
       # Download and cache dependencies
-      - run: gradle setupCIWorkspace
-      - run: gradle build
+      - run: gradle setupCIWorkspace --stacktrace --debug --scan
+      - run: gradle build --stacktrace --debug --scan
